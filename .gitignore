@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.log
+# Ignore .sass-cache
+.sass-cache/
+
+# Compiled scsss files
+*.scssc
+.DS_Store
+.DS_Store?
+

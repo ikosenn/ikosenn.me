@@ -54,11 +54,12 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'ikosenn.urls'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(STATIC_ROOT, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 
-{% block title %}Ikosenn -  About me{% endblock %}
-{% block styles %}<link rel="stylesheet" type="text/css" href="{% static  'stylesheets/components.css' %}">{% endblock %}
-{% block content %}{% endblock %}
+{% block title %}<title>Ikosenn -  About me</title>{% endblock %}
+{% block styles %}<link rel="stylesheet" type="text/css" href="{% static  'stylesheets/component.css' %}">{% endblock %}
+{% block content %}
 	<div class = "container">
 		<div id = "bl-main">
 
 		<!-- ABOUT SECTION -->
 			<section>
-				<div class = "class-box">
+				<div class = "bl-box">
 					<h2>Hi My Name is Kosen.</h2>
 				</div>
 
@@ -41,3 +41,4 @@
 		</div>
 
 	</div>
+{% endblock %}	
